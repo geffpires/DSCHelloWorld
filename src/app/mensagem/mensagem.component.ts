@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MensagemComponent implements OnInit {
   name: string;
   constructor() {
-    this.name = 'gefferson'
+    this.name = 'OPA!'
    }
 
   ngOnInit() {

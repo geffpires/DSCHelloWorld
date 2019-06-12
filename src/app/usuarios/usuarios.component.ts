@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./usuarios.component.css']
 })
 export class UsuariosComponent implements OnInit {
-  name: string;
+  names: string[];
   constructor() {
-    this.name = 'Gefferson Pires'
+    this.names = ['Gefferson Pires', 'Gersu Vieira', 'Lucas Silva', 'Adele SetFire']
    }
   ngOnInit() {
   }
